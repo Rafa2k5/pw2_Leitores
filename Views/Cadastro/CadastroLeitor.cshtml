@@ -1,0 +1,224 @@
+@{
+    ViewData["Title"] = "Cadastro de leitores";
+}
+<h2>@ViewData["Title"]</h2>
+<h3>@ViewData["Message"]</h3>
+
+
+<form action="" method="GET" class="form-group">
+    <fieldset class="table-bordered">
+        <legend>Dados Pessoais</legend>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-11">
+                    <label for="userCad">Nome do leitor:</label>
+                    <input type="text" id="userCad" placeholder="Escolha o nome de usuario..." class="form-control">
+                </div>
+            </div>
+            <br>
+            <div class="row justify-content-around">
+                <div class="col-lg-3">
+                    <label for="dtCad">Data Cadastro</label>
+                    <input type="date" id="dtCad" class="form-control">
+                </div>
+                <div class="col-lg-3">
+                    <label for="nasc">Data de Nasc.</label>
+                    <input type="date" id="nasc" class="form-control">
+                </div>
+                <div class="col-lg-3"></div>
+                <div class="col-lg-2">
+                    <label for="sexo">Sexo</label>
+                    <select id="sexo" class="form-control form-control-lg">
+                        <option value="1">Masculino</option>
+                        <option value="2">Feminino</option>
+                        <option value="3">Outro</option>
+                    </select>
+                </div>
+            </div>
+            <br>
+            <div class="row justify-content-around">
+                <div class="col-lg-5">
+                    <label for="escol">Escolaridade</label>
+                    <input type="text" id="escol" class="form-control">
+                </div>
+                <div class="col-lg-1"></div>
+                <div class="col-lg-5">
+                    <label for="natur">Naturalidade</label>
+                    <input type="text" id="natur" class="form-control">
+                </div>
+            </div>
+            <br>
+            <div class="row align-items-center">
+                <div class="col-lg-3">
+                    <label for="ident">Identidade</label>
+                    <input type="text" id="ident" class="form-control">
+                </div>
+                <div class="col-lg-3">
+                    <label for="cpf">CPF</label>
+                    <input type="text" id="cpf" class="form-control">
+                </div>
+                <div class="col-lg-1">
+                </div>
+                <div class="col-auto my-1">
+                    <div class="custom-control custom-checkbox mr-sm-2">
+                        <input type="checkbox" class="custom-control-input" id="customControlAutosizing">
+                        <label class="custom-control-label" for="customControlAutosizing">Leitor desativado temporariamente</label>
+                    </div>
+                </div>
+            </div>
+            <br>
+            </div>
+    </fieldset>
+    <br>
+    <fieldset class="table-bordered">
+    <legend>Familiares</legend>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5">
+                    <label for="nomeP">Nome do Pai</label>
+                    <input type="text" id="nomeP" class="form-control">
+                </div>
+                <div class="col-lg-1"></div>
+                <div class="col-lg-5">
+                    <label for="nomeM">Nome do Mãe</label>
+                    <input type="text" id="nomeM" class="form-control">
+                </div>
+            </div>
+        </div>
+        <br>
+    </fieldset>
+    <br>
+    <fieldset class="table-bordered">
+        <legend>Contatos</legend>
+        <br>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5">
+                    <label for="tel1">Telefone 1</label>
+                    <input type="tel" id="tel1" class="form-control">
+                </div>
+                <div class="col-lg-1"></div>
+                <div class="col-lg-5">
+                    <label for="tel2">Telefone 2</label>
+                    <input type="tel" id="tel2" class="form-control">
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-lg-5">
+                    <label for="contat1">Nome do contato</label>
+                    <input type="text" id="contat1" class="form-control">
+                </div>
+                <div class="col-lg-1"></div>
+                <div class="col-lg-5">
+                    <label for="contat2">Nome do contato</label>
+                    <input type="text" id="contat2" class="form-control">
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-lg-11">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" class="form-control">
+                </div>
+            </div>
+        </div>
+        <br>
+    </fieldset>
+    <br>
+    <fieldset class="table-bordered">
+        <legend>Endereço</legend>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <label for="rua">Rua/Avenida</label>
+                    <input type="text" id="rua" class="form-control">
+                </div>
+                <div class="col-lg-1">
+                    <label for="num">Numero</label>
+                    <input type="number" id="num" class="form-control">
+                </div>
+                <div class="col-lg-4">
+                    <label for="bairro">Bairro</label>
+                    <input type="text" id="bairro" class="form-control">
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-lg-4">
+                    <label for="cidade">Cidade</label>
+                    <input type="text" id="cidade" class="form-control">
+                </div>
+                <div class="col-lg-1">
+                    <label for="uf">UF</label>
+                    <select id="uf" class="form-control form-control-lg">
+                        <option value="1">AC</option>
+                        <option value="2">AL</option>
+                        <option value="3">AM</option>
+                        <option value="4">AP</option>
+                        <option value="5">BA</option>
+                        <option value="6">CE</option>
+                        <option value="7">DF</option>
+                        <option value="8">ES</option>
+                        <option value="9">GO</option>
+                        <option value="10">MA</option>
+                        <option value="11">MT</option>
+                        <option value="12">MS</option>
+                        <option value="13">MG</option>
+                        <option value="14">PA</option>
+                        <option value="15">PB</option>
+                        <option value="16">PR</option>
+                        <option value="17">PE</option>
+                        <option value="18">PI</option>
+                        <option value="19">RJ</option>
+                        <option value="20">RN</option>
+                        <option value="21">RS</option>
+                        <option value="22">RO</option>
+                        <option value="23">RR</option>
+                        <option value="24">SC</option>
+                        <option value="25">SP</option>
+                        <option value="26">SE</option>
+                        <option value="27">TO</option>
+                    </select>
+                </div>
+                <div class="col-lg-3">
+                    <label for="cep">CEP</label>
+                    <input type="number" id="cep" class="form-control">
+                </div>
+                <div class="col-lg-3">
+                    <label for="ptRef">Ponto de Referencia</label>
+                    <input type="text" id="ptRef" class="form-control">
+                </div>
+            </div>
+            <br>
+        </div>
+    </fieldset>
+    <br>
+    <fieldset class="table-bordered">
+        <legend>Dados do aluno</legend>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <label for="matricula">Matricula</label>
+                    <input type="number" id="matricula" class="form-control">
+                </div>
+                <div class="col-lg-4">
+                    <label for="turma">Turma</label>
+                    <input type="text" id="turma" class="form-control">
+                </div>
+                <div class="col-lg-3">
+                    <label for="horario">Horario</label>
+                    <input type="time" id="horario" class="form-control">
+                </div>
+            </div>
+            <br>
+        </div>
+    </fieldset>
+    <br>
+    <div class="container">
+        <div class="row">
+            <button type="button" class="btn btn-success">Ok</button>
+            <button type="button" class="btn btn-danger">Cancelar</button>
+        </div>
+    </div>
+</form>

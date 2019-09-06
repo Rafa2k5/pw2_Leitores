@@ -1,0 +1,33 @@
+C:\Users\TI\Desktop\projeto\bin\Debug\netcoreapp2.0\projeto.deps.json
+C:\Users\TI\Desktop\projeto\bin\Debug\netcoreapp2.0\projeto.runtimeconfig.json
+C:\Users\TI\Desktop\projeto\bin\Debug\netcoreapp2.0\projeto.runtimeconfig.dev.json
+C:\Users\TI\Desktop\projeto\bin\Debug\netcoreapp2.0\projeto.dll
+C:\Users\TI\Desktop\projeto\bin\Debug\netcoreapp2.0\projeto.pdb
+C:\Users\TI\Desktop\projeto\obj\Debug\netcoreapp2.0\projeto.csprojAssemblyReference.cache
+C:\Users\TI\Desktop\projeto\obj\Debug\netcoreapp2.0\projeto.csproj.CoreCompileInputs.cache
+C:\Users\TI\Desktop\projeto\obj\Debug\netcoreapp2.0\projeto.AssemblyInfoInputs.cache
+C:\Users\TI\Desktop\projeto\obj\Debug\netcoreapp2.0\projeto.AssemblyInfo.cs
+C:\Users\TI\Desktop\projeto\obj\Debug\netcoreapp2.0\projeto.dll
+C:\Users\TI\Desktop\projeto\obj\Debug\netcoreapp2.0\projeto.pdb
+F:\Mundo Weeb\bin\Debug\netcoreapp2.0\projeto.deps.json
+F:\Mundo Weeb\bin\Debug\netcoreapp2.0\projeto.runtimeconfig.json
+F:\Mundo Weeb\bin\Debug\netcoreapp2.0\projeto.runtimeconfig.dev.json
+F:\Mundo Weeb\bin\Debug\netcoreapp2.0\projeto.dll
+F:\Mundo Weeb\bin\Debug\netcoreapp2.0\projeto.pdb
+F:\Mundo Weeb\obj\Debug\netcoreapp2.0\projeto.csprojAssemblyReference.cache
+F:\Mundo Weeb\obj\Debug\netcoreapp2.0\projeto.csproj.CoreCompileInputs.cache
+F:\Mundo Weeb\obj\Debug\netcoreapp2.0\projeto.AssemblyInfoInputs.cache
+F:\Mundo Weeb\obj\Debug\netcoreapp2.0\projeto.AssemblyInfo.cs
+F:\Mundo Weeb\obj\Debug\netcoreapp2.0\projeto.dll
+F:\Mundo Weeb\obj\Debug\netcoreapp2.0\projeto.pdb
+E:\Mundo Weeb\bin\Debug\netcoreapp2.0\projeto.deps.json
+E:\Mundo Weeb\bin\Debug\netcoreapp2.0\projeto.runtimeconfig.json
+E:\Mundo Weeb\bin\Debug\netcoreapp2.0\projeto.runtimeconfig.dev.json
+E:\Mundo Weeb\bin\Debug\netcoreapp2.0\projeto.dll
+E:\Mundo Weeb\bin\Debug\netcoreapp2.0\projeto.pdb
+E:\Mundo Weeb\obj\Debug\netcoreapp2.0\projeto.csprojAssemblyReference.cache
+E:\Mundo Weeb\obj\Debug\netcoreapp2.0\projeto.csproj.CoreCompileInputs.cache
+E:\Mundo Weeb\obj\Debug\netcoreapp2.0\projeto.AssemblyInfoInputs.cache
+E:\Mundo Weeb\obj\Debug\netcoreapp2.0\projeto.AssemblyInfo.cs
+E:\Mundo Weeb\obj\Debug\netcoreapp2.0\projeto.dll
+E:\Mundo Weeb\obj\Debug\netcoreapp2.0\projeto.pdb

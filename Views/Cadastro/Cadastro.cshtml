@@ -1,0 +1,36 @@
+@{
+    ViewData["Title"] = "Cadastro de usuários";
+}
+<h2>@ViewData["Title"]</h2>
+<h3>@ViewData["Message"]</h3>
+
+<form action="" method="GET" class="form-group">
+    <fieldset>
+        <div class="col-lg-4">
+        <label for="userCad">Usuario:</label>
+        <input type="text" id="userCad" placeholder="Escolha o nome de usuario..." class="form-control">
+        <br>
+        <br>
+        <label for="emailCad">E-mail:</label>
+        <input type="email" id="emailCad" placeholder="Digite um e-mail valido..." class="form-control">
+        <br>
+        <br>
+        <select id="sexo" class="custom-select">
+            <option value="0">Escolha o sexo</option>
+            <option value="1">Masculino</option>
+            <option value="2">Feminino</option>
+            <option value="3">Outro</option>
+        </select>
+        <br>
+        <br>
+        <label for="senhaCad">Senha:</label>
+        <input type="password" id="senhaCad" placeholder="Escolha sua senha..." class="form-control">
+        <br>
+        <br>
+        <label for="ConfSenhaCad">Confirmar Senha:</label>
+        <input type="password" id="ConfSenhaCad" placeholder="Confirme a senha..." class="form-control">
+        <br>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+        </div>
+    </fieldset>
+</form>
